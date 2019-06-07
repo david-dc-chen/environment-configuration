@@ -11,7 +11,7 @@ spec:
   releaseName: gateway-dev
   forceUpgrade: true
   chart:
-    git: git@github.com:david-dc-chen/environment-configuration                                 # Repository where your Gateway Helm Chart is located, e.g. git@github.com:wynnel/puma-example-environment-configuration
+    git: git@github.com:david-dc-chen/environment-configuration                                 # Repository where your Gateway Helm Chart is located, e.g. git@github.com:wynnel/puma-example-environment-configurations
     path: charts/gateway
     ref: master
   valuesFrom:
